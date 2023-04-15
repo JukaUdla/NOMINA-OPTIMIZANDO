@@ -59,9 +59,17 @@ salario=(vh-(vh*9.45/100))+ven;
 
 nomina+=salario; //acumulador//
 
+  do{
+  
 printf("\nIngrese\n1.- Continuar\n2.- Salir\n");
   scanf("%f",&bucle);
+  } while(bucle !=1 && bucle !=2);
+    
 } while (bucle==1);  
   printf("TOTAL NOMINA= %.2f \n",nomina);
-  return 0;
+
+
+
   
+  return 0;
+}
